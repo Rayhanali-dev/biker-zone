@@ -1,7 +1,301 @@
 /* ==================================
+        Xtra-Large device start
+================================== */
+@media screen and (min-width: 1200px) and (max-width: 1399.98px) {
+    /* ===============================
+            Banner css start
+    =============================== */
+
+    .banner-title {
+        font-size: 65px;
+        padding-right: 123px;
+    }
+
+    .banner-sub-title {
+        padding-right: 316px;
+    }
+
+    /* ===============================
+            Banner css end
+    =============================== */
+
+    /* ===============================
+            Latest css start
+    =============================== */
+
+    .latest-card-title {
+        font-size: 26px;
+    }
+
+    /* ===============================
+            Latest css end
+    =============================== */
+
+}
+
+/* ==================================
+        Xtra-Large device end
+================================== */
+
+/* ==================================
+        Large device start
+================================== */
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    /* ===============================
+            Banner css start
+    =============================== */
+
+    .banner-title {
+        font-size: 60px;
+        padding-right: 50px;
+    }
+
+    .banner-sub-title {
+        padding-right: 205px;
+    }
+
+    /* ===============================
+            Banner css end
+    =============================== */
+
+    /* ===============================
+            Latest css start
+    =============================== */
+
+    .latest-card-title {
+        font-size: 21px;
+    }
+
+    /* ===============================
+            Latest css end
+    =============================== */
+
+    /* ===============================
+            Client css start
+    =============================== */
+
+    .clinent-text {
+        padding: 0;
+    }
+
+    /* ===============================
+            Client css end
+    =============================== */
+
+    /* ===============================
+            FAQ css start
+    =============================== */
+
+    .faq-left {
+        width: 100%;
+    }
+
+    .faq-img {
+        width: 100%;
+    }
+
+    /* ===============================
+            FAQ css end
+    =============================== */
+
+}
+
+/* ==================================
+        Large device end
+================================== */
+
+/* ==================================
+        Medium device start
+================================== */
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    /* ===============================
+            Navbar css start
+    =============================== */
+
+    .navbar {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-collapse {
+        background-color: #fff;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: #000;
+    }
+    
+    /* ===============================
+            Navbar css end
+    =============================== */
+
+
+    /* ===============================
+            Banner css start
+    =============================== */
+    .banner-title {
+        padding-right: 83px;
+    }
+
+    .banner-sub-title {
+        padding-right: 293px;
+    }
+
+    /* ===============================
+            Banner css end
+    =============================== */
+
+
+    /* ===============================
+            Latest css start
+    =============================== */
+
+    .latest-card-title {
+        font-size: 24px;
+    }
+
+    /* ===============================
+            Latest css end
+    =============================== */
+
+
+    /* ===============================
+            Client css start
+    =============================== */
+
+    .clinent-text {
+        padding: 0;
+    }
+
+    /* ===============================
+            Client css end
+    =============================== */
+}
+
+/* ==================================
+        Medium device end
+================================== */
+
+/* ==================================
+        Small device start
+================================== */
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    /* ===============================
+            Navbar css start
+    =============================== */
+
+    .navbar {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-collapse {
+        background-color: #fff;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: #000;
+    }
+    
+    /* ===============================
+            Navbar css end
+    =============================== */
+
+    /* ===============================
+            Banner css start
+    =============================== */
+
+    .banner {
+        padding-top: 170px;
+    }
+
+    .banner-title {
+        padding-right: 0;
+        font-size: 54px;
+        line-height: 73px;
+    }
+
+    .banner-sub-title {
+        padding-right: 100px;
+    }
+
+    /* ===============================
+            Banner css end
+    =============================== */
+
+    /* ===============================
+            Feature bike css start
+    =============================== */
+
+    .feature-bike {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .feature-bike-title {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .feature-bike-subtitle::after {
+        bottom: -14px;
+    }
+
+    .feature-bike-img {
+        width: 100%;
+    }
+
+    .feature-bike-img img {
+        width: 100% !important;
+    }
+
+    /* ===============================
+            Feature bike css end
+    =============================== */
+
+    /* ===============================
+            Footer css start
+    =============================== */
+    .second-row {
+        line-height: 50px;
+        padding-right: 100px;
+    }
+
+    /* ===============================
+            Footer css end
+    =============================== */
+
+
+
+
+}
+
+
+/* ==================================
+        Small device end
+================================== */
+
+/* ==================================
         Extra small device start
 ================================== */
-@media screen and (max-width: 575.98px) {
+@media only screen and (max-width: 575.98px) {
     /* ===============================
             Navbar css start
     =============================== */
