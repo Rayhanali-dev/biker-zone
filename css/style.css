@@ -1,0 +1,332 @@
+/* ===============================
+        Common css start
+=============================== */
+:root {
+    --primary-font: 'Poppins', sans-serif;
+    --secondary-font: 'Inter', sans-serif;
+    --tertiary-font: 'Manrope', sans-serif;
+    --primary-btn-color: #E76F51;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    line-height: .8;
+    margin-bottom: 0;
+}
+
+
+/* ===============================
+        Common css end
+=============================== */
+
+
+/* ===============================
+        Navbar css start
+=============================== */
+
+.navbar {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navbar .navbar-brand {
+    font-family: var(--primary-font);
+    font-size: 2.188rem;
+    color: #fff;
+}
+
+.navbar-nav .nav-item {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.nav-btn {
+    margin-left: 28px;
+    padding: 17px 52px;
+    background-color: var(--primary-btn-color);
+    font-family: var(--primary-font);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--primary-font);
+    color: #fff;
+}
+
+/* ===============================
+        Navbar css end
+=============================== */
+
+/* ===============================
+        Banner css start
+=============================== */
+
+.banner {
+    background: linear-gradient( to right, rgba(24, 24, 24, 1), rgba(24, 24, 24, 0)), url(../images/banner.jpg) no-repeat center/cover;
+    padding-top: 243px;
+    padding-bottom: 130px;
+}
+
+.banner-title {
+    padding-right: 47px;
+    font-size: 65px;
+    line-height: 85px;
+    margin-bottom: 30px;
+}
+
+.banner-sub-title {
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 300;
+    padding-right: 290px;
+    line-height: 26px;
+}
+
+.banner-btn {
+    padding: 17px 52px;
+    background-color: var(--primary-btn-color);
+    font-family: var(--primary-font);
+}
+
+
+
+/* ===============================
+        Banner css end
+=============================== */
+
+
+/* ====================================
+        Feature Bike css start
+======================================= */
+
+.feature-bike {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.feature-bike-title, .latest-title, .client-title, .faq-title {
+    font-size: 48px;
+    font-family: var(--primary-font);
+    margin-bottom: 15px;
+    
+}
+
+.feature-bike-subtitle {
+    position: relative;
+    display: inline-block;
+}
+
+.feature-bike-subtitle::after {
+    content: '';
+    width: 100px;
+    height: 2px;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    background-color: red;
+    transform: translateX(-50%);
+}
+
+
+
+/* ====================================
+        Feature Bike css end
+======================================= */
+
+
+/* ====================================
+        latest part css start
+======================================= */
+
+.latest {
+    margin-bottom: 130px;
+}
+
+.latest-card {
+    padding: 20px;
+}
+
+.latest-card-title {
+    font-size: 28px;
+    font-family: var(--primary-font);
+}
+
+.latest-btn {
+    color: var(--primary-btn-color);
+    font-size: 18px;
+    font-weight: 500 !important;
+}
+
+.latest-btn:hover {
+    background-color: #E76F51;
+    color: #fff;
+}
+
+.latest-card-sub-title {
+    line-height: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--primary-font);
+    margin-bottom: 40px;
+    color: #6C6C6C;
+}
+
+
+/* ====================================
+        latest part css end
+======================================= */
+
+
+/* ====================================
+        client part css end
+======================================= */
+
+.clinent {
+    margin-bottom: 130px;
+}
+
+.clinent-card {
+    padding: 40px 35px;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-title {
+    margin-bottom: 0;
+}
+
+.clinent-text {
+    font-size: 16px;
+    font-family: var(--primary-font);
+    color: #6C6C6C;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    line-height: 26px;
+    padding: 0 52px;
+}
+
+.client-card-title {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--primary-font);
+    margin-bottom: 15px;
+
+}
+
+.client-card-sub-title {
+    color: #252B42;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--primary-font);
+}
+
+
+/* ====================================
+        client part css end
+======================================= */
+
+
+/* ====================================
+        FAQ part css start
+======================================= */
+
+.faq {
+    margin-bottom: 130px;
+}
+
+.faq .accordion-item {
+    margin-bottom: 20px;
+}
+
+.faq .accordion-button {
+    box-shadow: none;
+    background: transparent;
+}
+
+.faq .accor-btn {
+    font-size: 20px;
+    font-family: var(--tertiary-font);
+    color: #383838;
+    line-height: 26px;
+    padding-right: 124px;
+    font-weight: 500;
+}
+
+.faq .accor-text {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--tertiary-font);
+    line-height: 28px;
+    padding-right: 120px;
+}
+
+/* ====================================
+        FAQ part css end
+======================================= */
+
+
+/* ====================================
+        Footer part css start
+======================================= */
+
+.footer {
+    background-color: #000;
+    padding-top: 56px;
+    padding-bottom: 84px;
+}
+
+.footer .footer-link {
+    font-family: var(--tertiary-font);
+    font-size: 16px;
+}
+
+.first-row {
+    margin-bottom: 10px;
+}
+
+.second-row {
+    margin-bottom: 15px;
+}
+
+.copyright-text {
+    font-family: var(--tertiary-font);
+}
+
+.footer-title {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--tertiary-font);
+    margin-bottom: 15px;
+    color: #D9DBE1;
+}
+
+/* ====================================
+        Footer part css end
+======================================= */
+

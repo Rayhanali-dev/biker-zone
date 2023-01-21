@@ -1,0 +1,149 @@
+/* ==================================
+        Extra small device start
+================================== */
+@media screen and (max-width: 575.98px) {
+    /* ===============================
+            Navbar css start
+    =============================== */
+
+    .navbar {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    
+    /* ===============================
+            Navbar css end
+    =============================== */
+
+    /* ===============================
+            Banner css start
+    =============================== */
+
+    .banner {
+        padding-top: 150px;
+    }
+
+    .banner-title {
+        padding-right: 0;
+        font-size: 35px;
+        line-height: 61px;
+    }
+
+    .banner-sub-title {
+        padding-right: 0;
+    }
+
+    /* ===============================
+            Banner css end
+    =============================== */
+
+
+    /* ===============================
+            Feature bike css start
+    =============================== */
+
+    .feature-bike {
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+
+    .feature-bike-title {
+        font-size: 24px;
+    }
+
+    .feature-bike-subtitle::after {
+       display: none;
+    }
+
+
+    /* ===============================
+            Feature bike css end
+    =============================== */
+
+
+    /* ===============================
+            Latest css start
+    =============================== */
+
+    .latest-title {
+        font-size: 36px;
+    }
+
+    .latest-card-title {
+        font-size: 21px;
+    }
+
+    .latest-card-sub-title {
+        font-size: 14px;
+    }
+
+    /* ===============================
+            Latest css end
+    =============================== */
+
+
+    /* ===============================
+            Client css start
+    =============================== */
+
+    .client-title {
+        padding: 0 15px;
+        line-height: 45px;
+        font-size: 38px;
+    }
+
+    .clinent-text {
+        padding: 0;
+        font-size: 15px;
+    }
+
+    /* ===============================
+            Client css end
+    =============================== */
+
+
+    /* ===============================
+            FAQ css start
+    =============================== */
+
+    .faq-left {
+        width: 100%;
+    }
+
+    .faq-img {
+        width: 100%;
+    }
+
+    .faq .accor-btn {
+        padding-right: 3px;
+    }
+
+    .faq .accor-text {
+        padding-right: 30px;
+    }
+
+    /* ===============================
+            FAQ css end
+    =============================== */
+
+
+    /* ===============================
+            Footer css start
+    =============================== */
+    .second-row {
+        line-height: 50px;
+    }
+
+
+    /* ===============================
+            Footer css end
+    =============================== */
+
+
+}
+
+
+/* ==================================
+        Extra small device end
+================================== */
